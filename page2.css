@@ -1,0 +1,96 @@
+body{
+    background-color: #ffff00;
+}
+.main1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(14, 238, 14);
+    margin-left: 100px;
+    transition-duration: 2s;
+   
+}
+.main1:hover{
+    width: 400px;
+}
+.main2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(14, 238, 14);
+    margin-left: 100px;
+    transition-duration: 2s;
+}
+.main2:hover{
+    height: 500px;
+    width: 400px;
+}
+.main3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(14, 238, 14);
+    margin-left: 100px;
+}
+.main3:hover{
+    width: 600px;
+
+}
+.main4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(14, 238, 14);
+    margin-left: 100px;
+}
+.main4:hover{
+    width: 200px;
+    height: 200px;
+
+}
+.main5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(14, 238, 14);
+    margin-left: 100px;
+    transition-duration: 5s;
+}
+.main5:hover{
+    width: 200px;
+    height: 200px;
+
+}
+.main6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(14, 238, 14);
+    margin-left: 100px;
+    transition-duration: 0.5s;
+}
+.main6:hover{
+    width: 800px;
+    /* height: 200px; */
+
+}
+.back{
+    padding: 8px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.back a{
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+}
+.next{
+    padding: 8px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.next a{
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+}

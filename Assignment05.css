@@ -1,0 +1,145 @@
+.main{
+    height: 200px;
+    width: auto;
+    display: flex;
+}
+.main1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin-left: 100px;
+    /* transform: skew(30deg); */
+    animation: min 1s linear infinite alternate;
+    
+}
+@keyframes min{
+    0%{
+        transform: skewX(30deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    100%{
+        transform: skewX(-30deg);
+    }
+}
+.main1:hover{
+    background-color: #0000ff;
+    
+}
+.mainA{
+    height: 200px;
+    width: auto;
+    display: flex;
+}
+.main2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(6, 115, 79);
+    margin-left: 100px;
+    animation: min1 1s linear infinite alternate;
+}
+@keyframes min1{
+    0%{
+        transform: skewy(30deg);
+    }
+    50%{
+        transform: skewy(0deg);
+    }
+    100%{
+        transform: skewy(-30deg);
+    }
+}
+.mainB{
+    height: 200px;
+    width: auto;
+    display: flex;
+}
+.main3{
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+    margin-left: 100px;
+    animation: min2 5s linear infinite alternate;
+    /* transform: rotate3d(360deg); */
+    
+}
+@keyframes min2{
+    0%{
+        transform: rotate(360deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.mainC{
+    height: 200px;
+    width: auto;
+    display: flex;
+}
+.main4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(241, 18, 241);
+    margin-left: 100px;
+}
+button{
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+    border: none ;
+    padding: 5px;
+    margin-left: 300px;
+}
+button:hover{
+    background-color: #085058;
+    border: none;
+}
+.scalex{
+    animation: scl1 2s linear infinite alternate;
+}
+@keyframes scl1 {
+    from{transform:scalex(1.6);width:30px;}
+    to{
+transform:scalex(2.0);width:50px;
+    }
+    
+}
+.scaley{
+    animation: scl2 2s linear infinite alternate;
+}
+@keyframes scl2 {
+    from{transform:scaley(1.6);height:40px;margin-top: 5px;}
+    to{
+transform:scaley(2.0);height: 60px;
+    }
+    
+}
+.rotateh{
+    animation: rot 4s linear infinite alternate;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(120deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-120deg);
+    }
+}
+
+
+
+    
+
+
+
+
+
+
